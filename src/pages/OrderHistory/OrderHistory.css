@@ -1,0 +1,39 @@
+.orders-history-container {
+    padding: 20px;
+    height: calc(100vh - 5rem);
+    box-sizing: border-box;
+    background-color: #081b29;
+}
+
+.orders-history-container h2 {
+    color: #011223;
+    font-weight: 600;
+}
+
+.table {
+    margin-top: 20px;
+   
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.badge {
+    font-size: 0.85em;
+    padding: 5px 8px;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        
+    }
+    .table td, .table th {
+        white-space: nowrap;
+    }
+}
